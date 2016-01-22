@@ -42,3 +42,4 @@ for i=1:40
     end 
 end
 clear i j irow icol img str temp img2
+save('data\TrainTest.mat', 'label_test', 'label_train', 'nClass', 'nEachClass');
